@@ -1,12 +1,12 @@
 local M = {}
 
 M.base_30 = {
-  white = "#abb2bf",
+  white = "#61afef",
   darker_black = "#1b1f27",
-  black = "#1e222a", --  nvim bg
-  black2 = "#252931",
+  black = "#252931", --  nvim bg
+  black2 = "#2d3139",-- TOP BAR LINE TRANSPARENCY #252931
   one_bg = "#282c34", -- real bg of onedark
-  one_bg2 = "#353b45",
+  one_bg2 = "#32364c",
   one_bg3 = "#373b43",
   grey = "#42464e",
   grey_fg = "#565c64",
@@ -27,14 +27,14 @@ M.base_30 = {
   teal = "#519ABA",
   orange = "#fca2aa",
   cyan = "#a3b8ef",
-  statusline_bg = "#22262e",
-  lightbg = "#2d3139",
+  statusline_bg = NONE, -- BOTTOM LINE TRANSPARENCY #22262e
+  lightbg = "#2d3139", -- BOTTOM LINE TRANSPARENCY
   pmenu_bg = "#61afef",
   folder_bg = "#61afef",
 }
 
 M.base_16 = {
-  base00 = "#1e222a",
+  base00 = "#252931",
   base01 = "#353b45",
   base02 = "#3e4451",
   base03 = "#545862",
